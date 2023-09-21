@@ -10,7 +10,7 @@ So Azure Function helps us to automate the python script
 
 ### Logo:
 
-![Logo](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/Azure.png)
+![Logo](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/Azure.png)
 
 
 ## Documentation
@@ -45,54 +45,54 @@ Go to Visual studio code and install these 4 extensions are: \
 👉 Azure Functions \
 👉 Azurite
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/Screenshot%202023-09-20%20193448.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step2.png)
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/Azurite.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step2__.png)
 
 After Installing all these you will see the Azure icon on the left side of Visual Studio code like this 👇
  
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/azuree.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step2_.png)
 
 ### step 3:
 Click the Azure icon and again click sign in to Azure and it will make a connection between azure and visual studio code
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/sign.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step3.png)
 
 ### step 4:
 After Sign-in you can see the function app you created in (step 1) with in visual studio code
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/Azure_function_app.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step4.png)
 
 
 ### step 5:
 Create a new project in workspace
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/step_1_Create_new_project.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step5.png)
 
 
 ### step 6:
 Select Python (Programming module V2)
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/v2.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/v2.png)
 
 ### step 7:
 Select a virtual envirement that you want to use
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/select_environment.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step7.png)
 
 ### step 8:
 Select time trigger, Since we are going to trigger the python script irrespective with time
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/step_4_time_trigger.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step8.png)
 
 ### step 9:
 We should name the function that we want to create
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/step_5_name_for_time_trigger.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step9.png)
 
 ### step 10:
 Setting up the cron expression to run the python script for every 5 minutes automatically
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/step_6_setting_cron_for_every_5_min.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step10.png)
 
 
 ### step 11:
 Finally it will create a new project
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/step_7_settup_project.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step11.png)
 
 
 And it will automatically bring the default(supporting files) inside the virtual envirement that we created, which is below👇 \
@@ -102,11 +102,11 @@ And it will automatically bring the default(supporting files) inside the virtual
 👉 local.settings.json \
 👉 Requirement.txt 
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/auto_genereted_file.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step11_.png)
 
 ### step 12(IMPORTANT STEP):
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/func.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step12.png)
 
 In function_app, By Default it will have 10 lines of code 
 
@@ -117,7 +117,7 @@ In function_app, By Default it will have 10 lines of code
 ✍️Write the supporting libraries in the Requirement.txt \
 E.g: I am using library like pandas, sqlalchemy, requests, azure-functions and pyodbc, So i wrote all them in line by line on Requirement.txt \
 \
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/requirement.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/step13.png)
 
 ### step 14:
 #### Installation
@@ -142,7 +142,7 @@ At last, the program will run at a predefined time interval that we establish.
 
 If our program is correct, it used to give us a output like this 👇 
 
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/output.png) 
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/Function%20output.png) 
 
 👉Work process started and initiated \
 👉Executing 'Function.(Our function name)' \
@@ -151,7 +151,7 @@ If our program is correct, it used to give us a output like this 👇
 If incase the program is not running we need to check with the step 12 👈 again
 ## Deployment
 If the function is running good in local, Then click deploy to Function App...
-![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/readme.so/Final_deploy.png)
+![App Screenshot](https://raw.githubusercontent.com/GowthamK66/Newell/main/Readme.so/deployment.png)
 
 
 
@@ -175,5 +175,4 @@ gowtham.kalidass@newellco.com
 ## Authors
 
 - [@Gowtham.kalidass](https://github.com/GowthamK66)
-
 
