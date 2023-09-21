@@ -172,7 +172,7 @@ mithun.mohan@newellco.com or \
 chinnathambi.murugesan@newellco.com or \
 gowtham.kalidass@newellco.com 
 
-## Authors
+## Author
 
 - [@Gowtham.kalidass](https://github.com/GowthamK66)
 
